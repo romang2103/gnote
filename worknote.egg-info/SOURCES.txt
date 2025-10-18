@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+worknote/__init__.py
+worknote/cli.py
+worknote/config.py
+worknote/dates.py
+worknote/files.py
+worknote/llm.py
+worknote.egg-info/PKG-INFO
+worknote.egg-info/SOURCES.txt
+worknote.egg-info/dependency_links.txt
+worknote.egg-info/entry_points.txt
+worknote.egg-info/top_level.txt

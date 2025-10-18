@@ -1,0 +1,17 @@
+[project]
+name = "worknote"
+version = "0.1.0"
+description = "Lightning-fast CLI for daily notes and summaries"
+requires-python = ">=3.10"
+dependencies = []
+authors = [
+  { name = "Roman Gurung", email = "romang2103@gmail.com" }
+]
+
+[project.scripts]
+note = "worknote.cli:cmd_note"
+notesum = "worknote.cli:cmd_notesum"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
