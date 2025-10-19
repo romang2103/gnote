@@ -1,3 +1,0 @@
-[console_scripts]
-note = worknote.cli:cmd_note
-notesum = worknote.cli:cmd_notesum
