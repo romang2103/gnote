@@ -76,6 +76,10 @@ def cmd_notesum():
     parser.add_argument("--out", help="Write summary to this file (optional)")
     args = parser.parse_args()
 
+
+    # Log the start of the collection process
+    print("Collecting notes and generating summary...")
+
     # Compute date range
     if args.last:
         start, end = parse_last(args.last)
