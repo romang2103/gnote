@@ -3,7 +3,9 @@ name = "worknote"
 version = "0.1.0"
 description = "Lightning-fast CLI for daily notes and summaries"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "openai>=2.3.0"
+]
 authors = [
   { name = "Roman Gurung", email = "romang2103@gmail.com" }
 ]
