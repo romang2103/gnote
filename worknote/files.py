@@ -9,16 +9,7 @@ from datetime import date, datetime
 from .config import notes_root
 import calendar
 
-HEADER = """# {date} — Daily Notes
-
-## What I worked on
--
-
-## Blockers
--
-
-## Next up
--
+HEADER = """## {date} — Daily Notes
 """
 
 
