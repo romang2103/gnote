@@ -18,7 +18,7 @@ notesum --last Xd            # Summarizes your notes from the last X days (requi
 
 1. **Clone this repository**
 ```bash
-   git clone https://github.com/yourusername/GNote.git
+   git clone https://github.com/romang2103/GNote.git
 ```
 2. **Navigate to the project directory**
 ```bash
