@@ -25,9 +25,13 @@ notesum --last Xd            # Summarizes your notes from the last X days (requi
    cd GNote
 ```
 3. **Create a `.env` file**
+```bash
    - Use `.env.example` as a reference.
    - Specify where you want GNote to store your notes.
 
+   # .env
+   WORKNOTE_DIR="C://worknotes"
+```
 5. **Set your OpenAI API key (in PowerShell as Administrator)**
 ```bash
    setx OPENAI_API_KEY "sk-your-api-key-here"
@@ -41,4 +45,4 @@ notesum --last Xd            # Summarizes your notes from the last X days (requi
 
 ---
 
-💡 **Tip:** Run `note` anytime to open or append to your daily note, and `notesum` to get quick summaries powered by AI.
+💡 Run `note` anytime to open or append to your daily note, and `notesum` to get quick summaries powered by AI.
