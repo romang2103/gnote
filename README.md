@@ -5,11 +5,13 @@
 ---
 
 ### 🚀 Example Usage
+```bash
+note                         # Opens today's note in Notepad  
+note "Fixed Docker issue"    # Appends "Fixed Docker issue" to today's note (quotes are optional)  
+notesum --last Xd            # Summarizes your notes from the last X days (requires OpenAI API key)
 
-note                      # Opens today's note in Notepad  
-note Fixed Docker issue   # Appends "Fixed Docker issue" to today's note (quotes are optional)  
-notesum --last Xd         # Summarizes your notes from the last X days (requires OpenAI API key)
-
+...more commands on the way
+```
 ---
 
 ### ⚙️ Installation & Setup
